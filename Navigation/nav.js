@@ -56,7 +56,7 @@ profile_btn.onclick = (() => {
 // Overlay handling 
 overlay.onclick = (() => {
     if (dropDownWrapper.classList.contains("hidden") === false) {
-        dropDownWrapper.classList.add("hidden");
+        dropDownWrapper.classList.toggle("hidden");
         overlay.classList.add("hidden");
     }
 });
